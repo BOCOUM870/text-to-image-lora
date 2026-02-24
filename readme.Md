@@ -12,9 +12,18 @@ This project demonstrates parameter-efficient fine-tuning of Stable Diffusion v1
 - Generated domain-specific images after training
 
 ## Results
+## Training Evidence
+
+The model was trained for multiple epochs using LoRA adapters.
+Loss values were monitored during training and checkpoints were saved after each epoch.
+
+Example training log:
+
+![Training Log](results/training_log.png)
 
 See results folder for generated images.
 
 ## Note
+
 
 API keys and private dataset paths are excluded for security reasons.
